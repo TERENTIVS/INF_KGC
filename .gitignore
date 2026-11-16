@@ -1,0 +1,68 @@
+# Build / virtualenv / cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# Editor / OS
+.DS_Store
+.obsidian/
+.claude/
+.idea/
+.vscode/
+~$*
+
+# Authoring artefacts — not for distribution
+*.docx
+*.pdf
+MEMORY.md
+memory_*.md
+ABSTRACT_DISCUSSION_PLAN.md
+COVER_LETTER.md
+NOTEBOOK_CLEANUP.md
+REVIEWER_RESPONSE*.md
+SUBMISSION_PREP_PLAN.md
+TRIM_PLAN.md
+ZIP_COMMANDS.txt
+fix_and_run.py
+
+# Older exploratory notebook (kept locally for reference; not for the repo)
+INF_notebook.ipynb
+
+# Orphan / experimental figures from earlier runs (canonical ones are kept)
+figures/cv_d1_tpr_horizontal.png
+figures/holdout_d1_horizontal.png
+figures/soldatos_vertical.png
+
+# macOS Finder aliases
+*alias
+
+# Large pickles, available on request (see data/pickles/DOWNLOAD.md)
+# These are too large for git; the small bundled pickles below this list ship.
+data/pickles/cv_inf_feats_l3_all_combos.pkl
+data/pickles/cv_inf_feats_l34_all_combos.pkl
+data/pickles/hitk_dfs.pkl
+data/pickles/hitk_partitions_ae_deg.pkl
+data/pickles/raw_preds.pkl
+data/pickles/dwpc_preds.pkl
+data/pickles/single_best_hitk.pkl
+data/pickles/single_best_recall.pkl
+data/pickles/negs_to_test_l3_feats_ids.pkl
+data/pickles/soldatos_drkg_intersects.pkl
+data/pickles/new_test.pkl
+data/pickles/preds_mapped_incl_ensemble.pkl
+data/pickles/hitk_dfs_mapped_newtest_soldatos.pkl
+data/pickles/inf_configs_slice_recall.pkl
+data/pickles/dwpc_features/
+data/pickles/inf_features/
+
+# Files containing Evotec ground-truth target–AE pairs or target lists.
+# Proprietary: available from the corresponding author on request; never
+# committed to this repository.
+data/pickles/test_pos_pairs.pkl
+data/pickles/all_genes_with_aes.pkl
+data/pickles/cv_dwpc_feats_ready.pkl
+data/pickles/ideal_inf_res.pkl
+data/ground_truth_sample_200.csv
+

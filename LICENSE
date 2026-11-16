@@ -1,0 +1,20 @@
+Copyright (c) 2026 Terence Egbelo, J Charles G Jeynes,
+                   Zeyneb Kurt, Rahul V Veettil, Valerie J Gillet.
+All rights reserved.
+
+This source code, data, and documentation are made available for the
+limited purpose of peer review and academic evaluation of the
+accompanying manuscript "Improving Target–Adverse Event Association
+Prediction via Inverse Node Frequency Transformation to Mitigate
+Knowledge Graph Topological Bias" (currently under review at
+Bioinformatics).
+
+You may inspect, run, and reproduce the contents of this repository
+for that purpose. Redistribution, commercial use, and the creation of
+derivative works are not permitted prior to publication.
+
+Upon publication, this repository will be relicensed under a
+permissive open-source licence (anticipated MIT) and this file will
+be replaced accordingly.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.

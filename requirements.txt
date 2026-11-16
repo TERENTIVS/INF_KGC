@@ -1,0 +1,18 @@
+# Core metapaths package dependencies
+numpy==1.23.5
+pandas==1.5.3
+py2neo==2021.2.4
+tqdm==4.64.1
+
+# ML / evaluation
+scikit-learn==1.6.1
+scipy==1.15.2
+
+# Visualisation
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# Notebook
+ipykernel==6.29.5
+jupyter_client==8.6.3
+jupyter_core==5.7.2

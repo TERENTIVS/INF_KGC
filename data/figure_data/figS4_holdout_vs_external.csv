@@ -1,0 +1,13 @@
+test_set,method,metric,value,ci_low,ci_high
+holdout,INF Ensemble,Hits@10,0.352705,0.321618,0.380787
+holdout,DWPC,Hits@10,0.361723,0.331663,0.390782
+holdout,Original,Hits@10,0.360721,0.329659,0.388778
+external,INF Ensemble,Hits@10,0.063942,0.058560,0.069323
+external,DWPC,Hits@10,0.067658,0.062148,0.073555
+external,Original,Hits@10,0.063942,0.058560,0.069580
+holdout,INF Ensemble,TPR,0.901277,0.866985,0.928519
+holdout,DWPC,TPR,0.868392,0.829601,0.902144
+holdout,Original,TPR,0.846968,0.803397,0.881536
+external,INF Ensemble,TPR,0.402003,0.323429,0.475453
+external,DWPC,TPR,0.214709,0.146289,0.288616
+external,Original,TPR,0.217369,0.151589,0.285861

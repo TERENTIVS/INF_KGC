@@ -1,0 +1,16 @@
+model,rank,feature,importance
+INF (config 12),1,(n_source:Gene)-[r1:Gene_Compound]->(n_1:Compound)<-[r2:Gene_Compound]-(n_2:Gene)-[r3:Gene_ADR]->(n_target:ADR),0.104
+INF (config 12),2,(n_source:Gene)-[r1:Gene_ADR]->(n_1:ADR)<-[r2:Gene_ADR]-(n_2:Gene)-[r3:Gene_ADR]->(n_target:ADR),0.057
+INF (config 12),3,(n_source:Gene)-[r1:Gene_Gene]->(n_1:Gene)-[r2:Gene_ADR]->(n_target:ADR),0.05
+INF (config 12),4,(n_source:Gene)-[r1:Gene_Pathway]->(n_1:Pathway)<-[r2:Gene_Pathway]-(n_2:Gene)-[r3:Gene_ADR]->(n_target:ADR),0.04
+INF (config 12),5,(n_source:Gene)-[r1:Gene_Compound]->(n_1:Compound)-[r2:Compound_SideEffect]->(n_2:SideEffect)<-[r3:ADR_SideEffect]-(n_target:ADR),0.037
+Original (config 0),1,(n_source:Gene)-[r1:Gene_MolecularFunction]->(n_1:MolecularFunction)<-[r2:Gene_MolecularFunction]-(n_2:Gene)-[r3:Gene_ADR]->(n_target:ADR),0.022
+Original (config 0),2,(n_source:Gene)-[r1:Gene_Gene]->(n_1:Gene)-[r2:Gene_ADR]->(n_target:ADR),0.021
+Original (config 0),3,(n_source:Gene)-[r1:Gene_Compound]->(n_1:Compound)<-[r2:Gene_Compound]-(n_2:Gene)-[r3:Gene_ADR]->(n_target:ADR),0.011
+Original (config 0),4,(n_source:Gene)-[r1:Gene_BiologicalProcess]->(n_1:BiologicalProcess)<-[r2:Gene_BiologicalProcess]-(n_2:Gene)-[r3:Gene_ADR]->(n_target:ADR),0.01
+Original (config 0),5,(n_source:Gene)-[r1:Gene_Compound]->(n_1:Compound)-[r2:Compound_SideEffect]->(n_2:SideEffect)<-[r3:ADR_SideEffect]-(n_target:ADR),0.009
+DWPC,1,(n_source:Gene)-[r1:Gene_MolecularFunction]->(n_1:MolecularFunction)<-[r2:Gene_MolecularFunction]-(n_2:Gene)-[r3:Gene_ADR]->(n_target:ADR),0.014
+DWPC,2,(n_source:Gene)-[r1:Gene_Compound]->(n_1:Compound)<-[r2:Gene_Compound]-(n_2:Gene)-[r3:Gene_ADR]->(n_target:ADR),0.011
+DWPC,3,(n_source:Gene)-[r1:Gene_Gene]->(n_1:Gene)-[r2:Gene_ADR]->(n_target:ADR),0.011
+DWPC,4,(n_source:Gene)-[r1:Gene_BiologicalProcess]->(n_1:BiologicalProcess)<-[r2:Gene_BiologicalProcess]-(n_2:Gene)-[r3:Gene_ADR]->(n_target:ADR),0.007
+DWPC,5,(n_source:Gene)-[r1:Gene_Disease]->(n_1:Disease)<-[r2:Gene_Disease]-(n_2:Gene)-[r3:Gene_ADR]->(n_target:ADR),0.006
