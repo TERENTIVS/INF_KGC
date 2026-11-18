@@ -8,6 +8,9 @@ Code and data accompanying the manuscript:
 > Terence Egbelo, J Charles G Jeynes, Zeyneb Kurt, Rahul V Veettil, Valerie J Gillet.
 > *Bioinformatics* (under review).
 
+Submitted version archived at Software Heritage:
+[`swh:1:rev:09ff3525acb878c37a58d744b32ff11e45b14fad`](https://archive.softwareheritage.org/swh:1:rev:09ff3525acb878c37a58d744b32ff11e45b14fad).
+
 INF is a feature transformation for KG completion that re-weights
 metapath instances by the inverse frequency of each intermediate node
 under a specific edge type. It mitigates the topological / degree bias
