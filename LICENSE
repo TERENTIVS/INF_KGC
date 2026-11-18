@@ -1,20 +1,28 @@
+MIT License
+
 Copyright (c) 2026 Terence Egbelo, J Charles G Jeynes,
-                   Zeyneb Kurt, Rahul V Veettil, Valerie J Gillet.
-All rights reserved.
+                   Zeyneb Kurt, Rahul V Veettil, Valerie J Gillet
 
-This source code, data, and documentation are made available for the
-limited purpose of peer review and academic evaluation of the
-accompanying manuscript "Improving Target–Adverse Event Association
-Prediction via Inverse Node Frequency Transformation to Mitigate
-Knowledge Graph Topological Bias" (currently under review at
-Bioinformatics).
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-You may inspect, run, and reproduce the contents of this repository
-for that purpose. Redistribution, commercial use, and the creation of
-derivative works are not permitted prior to publication.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Upon publication, this repository will be relicensed under a
-permissive open-source licence (anticipated MIT) and this file will
-be replaced accordingly.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+---
+
+Third-party data bundled in this repository keep their original licences:
+the Soldatos et al. (2018) supplementary files in data/soldatos_2018/ are
+distributed under CC BY 4.0 (see data/soldatos_2018/README.md).

@@ -3,7 +3,7 @@ config.py — Project-level configuration for INF_notebook.ipynb
 ===============================================================
 All paths are relative to this file's location by default, so the
 package works out of the box; the restricted pickle files (available from
-the corresponding author on request) go in data/pickles/.  See
+the first author on request) go in data/pickles/.  See
 data/pickles/DOWNLOAD.md for the file list.
 
 The only settings that ever need changing are:

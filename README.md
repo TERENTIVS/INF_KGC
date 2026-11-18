@@ -47,7 +47,7 @@ python generate_si_inf_grid.py    # Tables S1-S2, Figure S3
 
 # 4. (Optional, restricted data) Recompute Figures 7-9, 11 and S4 from
 #    the underlying predictions (~25 minutes). Requires the restricted
-#    pickles, available from the corresponding author on request:
+#    pickles, available from the first author on request:
 #    see data/pickles/DOWNLOAD.md
 .venv/bin/jupyter nbconvert --to notebook --execute --inplace supplement.ipynb
 ```
@@ -108,18 +108,14 @@ pip install git+https://github.com/TERENTIVS/metapaths_publ@v1.0.0
 ## Data sources
 
 - **TSA knowledge graph.** Built on the Drug Repurposing Knowledge Graph (Ioannidis et al., 2020) and augmented in-house at Evotec; node mapping (`data/hetionet-v1.0-nodes_version2.tsv`) bundled.
-- **Ground-truth target–AE associations.** Curated at Evotec (6,657 associations) and proprietary; not included in this repository. A 200-association sample illustrating the ground-truth schema, and all pickles containing labelled target–AE pairs, are available from the corresponding author on request — see `data/pickles/DOWNLOAD.md`.
+- **Ground-truth target–AE associations.** Curated at Evotec (6,657 associations) and proprietary; not included in this repository. A 200-association sample illustrating the ground-truth schema, and all pickles containing labelled target–AE pairs, are available from the first author on request — see `data/pickles/DOWNLOAD.md`.
 - **External validation set.** Soldatos et al. (2018) supplementary files 2, 3, 4 bundled in `data/soldatos_2018/` under their original CC-BY 4.0 licence — credit and the original publication are noted in `data/soldatos_2018/README.md`.
 
 ## Licence
 
-Pre-publication: all rights reserved, with a peer-review carve-out
-permitting inspection, execution, and reproduction of the contents of
-this repository for the limited purpose of evaluating the accompanying
-manuscript. Redistribution, commercial use, and derivative works are
-not permitted prior to publication. Upon publication, the repository
-will be relicensed under a permissive open-source licence (anticipated
-MIT). See [`LICENSE`](./LICENSE) for full terms.
+Code and documentation are released under the MIT License; see
+[`LICENSE`](./LICENSE). The bundled Soldatos et al. (2018) files keep
+their original CC BY 4.0 licence.
 
 ## Citation
 
@@ -138,11 +134,11 @@ MIT). See [`LICENSE`](./LICENSE) for full terms.
 
 ## Authors
 
-- Terence Egbelo¹·²·* — University of Sheffield · Evotec UK · terence.egbelo@gmail.com
+- Terence Egbelo¹·² — University of Sheffield · Evotec UK · terence.egbelo@gmail.com
 - J Charles G Jeynes² — Evotec UK
 - Zeyneb Kurt¹ — University of Sheffield
 - Rahul V Veettil² — Evotec UK
-- Valerie J Gillet¹ — University of Sheffield
+- Valerie J Gillet¹·* — University of Sheffield · v.gillet@sheffield.ac.uk
 
 ¹ School of Information, Journalism and Communication, University of Sheffield.
 ² Evotec UK, Abingdon.

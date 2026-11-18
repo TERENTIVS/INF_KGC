@@ -3,7 +3,7 @@
 The files listed below contain the proprietary target–adverse event (AE)
 associations curated by Evotec (UK) Ltd, as labelled target–AE pairs,
 per-target AE counts or the list of annotated targets. They are not
-redistributed publicly and are available from the corresponding author
+redistributed publicly and are available from the first author
 (Terence Egbelo, terence.egbelo@gmail.com) on reasonable request. Please
 state your name, affiliation and intended use. The files are provided
 for verification and reproduction of the published results and may not

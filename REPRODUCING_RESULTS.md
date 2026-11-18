@@ -31,7 +31,8 @@ next section. They are only needed to recompute Figures 8, 11 and S4 from the pr
 ## Step 1 — (Optional) obtain the restricted pickle files
 
 The large prediction pickles contain the Evotec ground truth and are not
-distributed publicly; they are available from the corresponding author on request.
+distributed publicly; they are available from the first author on request
+(Terence Egbelo, terence.egbelo@gmail.com).
 Place the files in `data/pickles/` as described in `data/pickles/DOWNLOAD.md`.
 
 Without them: Figures 4, 6, 7, 9 and 10 and Supplementary Tables S1–S2 / Figure S3
